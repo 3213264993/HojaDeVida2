@@ -62,8 +62,10 @@ p{
 
   .pie-de-pagina {
     position: absolute; 
-    bottom: -4%;
-    width: 90%;
+    bottom: -8%;
+    width: 110%;
+    text-shadow: 10px 10px 10px rgb(20, 20, 20);
+    padding: 10px 10px;
 }
 
   
