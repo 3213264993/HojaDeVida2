@@ -29,9 +29,42 @@ nav ul li a {
   }
 
   h1{
-    font-family: tahoma;
+    font-family: Arial;
     font-size: 20px; 
     text-align: center;
 }
  
+h2{
+    font-family: Arial;
+    font-size: 20px; 
+}
+
+p{
+    font-family: serif;
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px;
+  }
+  .centro {
+    position: absolute; 
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50% ,-50%); 
+  }
+
+
+  footer{
+    line-height: 25px;
+    color:black  ;
+    text-align: center;
+  }
+
+
+  .pie-de-pagina {
+    position: absolute; 
+    bottom: -4%;
+    width: 90%; 
+}
+
+  
  
