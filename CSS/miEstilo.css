@@ -23,7 +23,6 @@ nav ul {
   margin: 0;
 }
 
-
 nav ul li{
   display: inline-block;
   line-height: 4px;
@@ -37,11 +36,11 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none; 
   text-shadow: 10px 10px 10px rgb(0, 0, 0);
-  padding: 25px 60px;
+  padding: 30px 99px;
 }
 li a:hover{
   padding: 10px;
-  color: rgb(10, 9, 10);
+  color: rgb(223, 17, 223);
   transition: 4s;
   border: 1px solid;
   width: auto;
