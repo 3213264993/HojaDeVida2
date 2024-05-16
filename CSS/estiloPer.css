@@ -92,4 +92,6 @@ li {
     position: absolute; 
     bottom: -90%;
     width: 120%;
+    text-shadow: 10px 10px 10px rgb(20, 20, 20);
+    padding: 10px 10px;
 }
