@@ -59,6 +59,12 @@ h2{
   color:black;
 }
 
+h3{
+  font-family: Arial;
+  font-size: 20px; 
+  color:rgb(0, 0, 0);
+}
+
 p{
   font-family: serif;
   text-align: justify;
