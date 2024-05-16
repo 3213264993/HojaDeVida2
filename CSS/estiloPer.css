@@ -74,18 +74,22 @@ p{
 }
 
 ul {
+    font-family: 'fenix';
     list-style-type: none;
     padding: 5px 5px;
+    font-size: 23px;
 }
 
 li {
+    font-family: 'fenix';
     margin: 10px 7px;
-    padding: 0px
+    padding: 0px;
+    font-size: 23px;
 }
 
 
 .pie-de-pagina {
     position: absolute; 
-    bottom: -55%;
-    width: 99%;
+    bottom: -90%;
+    width: 120%;
 }
