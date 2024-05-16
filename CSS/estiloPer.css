@@ -94,7 +94,7 @@ body {
 
   p{
     font-family: 'fenix';
-    font-size: 23px;
+    font-size: 20px;
     text-transform: lowercase;
     padding: 5px 5px;
     color: black;
@@ -104,7 +104,7 @@ ul {
     font-family: 'fenix';
     list-style-type: none;
     padding: 5px 5px;
-    font-size: 23px;
+    font-size: 20px;
     color: black;
 }
 
@@ -112,7 +112,7 @@ li {
     font-family: 'fenix';
     margin: 10px 7px;
     padding: 0px;
-    font-size: 23px;
+    font-size: 20px;
     color: black;
 }
 
