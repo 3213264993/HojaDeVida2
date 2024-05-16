@@ -27,7 +27,15 @@ nav ul li a {
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
     padding: 25px 60px;
   }
-
+ 
+  li a:hover{
+    padding: 10px;
+    color: rgb(10, 9, 10);
+    transition: 5s;
+    border: 1px solid;
+    width: auto;
+  }
+  
   h1{
     font-family: 'fenix';
     font-size: 25px; 
