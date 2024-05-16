@@ -29,12 +29,63 @@ nav ul li a {
   }
 
   h1{
-    font-family: Arial;
-    font-size: 20px; 
-    text-align: center;
+    font-family: 'fenix';
+    font-size: 25px; 
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgb(2, 1, 1);
+    padding: 10px 10px;
 }
  
 h2{
-    font-family: Arial;
-    font-size: 20px; 
+    font-family: 'fenix';
+    font-size: 25px; 
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgb(2, 1, 1);
+    padding: 10px 10px;
+}
+
+h3{
+    font-family: 'fenix';
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgb(2, 1, 1);
+    padding: 10px 10px;
+}
+
+h4{
+    font-family: 'fenix';
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgb(2, 1, 1);
+    padding: 10px 10px;
+}
+
+footer{
+    line-height: -25px;
+    color:black  ;
+    text-align: center;
+  }
+
+p{
+    font-family: 'fenix';
+    font-size: 23px;
+    text-transform: lowercase;
+    padding: 5px 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px 5px;
+}
+
+li {
+    margin: 10px 7px;
+    padding: 0px
+}
+
+
+.pie-de-pagina {
+    position: absolute; 
+    bottom: -55%;
+    width: 99%;
 }
