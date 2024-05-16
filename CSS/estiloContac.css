@@ -21,7 +21,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     text-decoration: none; 
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
