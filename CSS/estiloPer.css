@@ -1,84 +1,103 @@
 body {
-
-    background-color:rgb(195, 231, 241);
-    
-    }
-
-nav ul {
-    list-style: none; 
-    padding: 4;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+    color: #333;
     margin: 0;
-    justify-content: center;
+    padding: 0;
+  }
+  header {
+    background: #f4f5f7;
+    color: white;
+    padding: 10px 0;
+  }
+  nav {
+    background: #696268;
+  }
+  nav a {
+    color: white;
   }
   
+  nav ul {
+    list-style: none; 
+    padding: 10;
+    margin: 0;
+  }
   
   nav ul li{
     display: inline-block;
     line-height: 4px;
     margin: 1px;
     justify-content: center;
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-decoration: none; 
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
-    padding: 25px 60px;
+    padding: 30px 100px;
   }
-
   li a:hover{
     padding: 10px;
-    color: rgb(10, 9, 10);
-    transition: 5s;
+    color: rgb(223, 17, 223);
+    transition: 4s;
     border: 1px solid;
     width: auto;
   }
   
   h1{
-    font-family: 'fenix';
-    font-size: 25px; 
+    font-family: Arial;
+    font-size: 20px; 
+    color:black;
     text-transform: uppercase;
     text-shadow: 10px 10px 10px rgb(2, 1, 1);
     padding: 10px 10px;
-}
- 
-h2{
-    font-family: 'fenix';
-    font-size: 25px; 
+  }
+  
+  h2{
+    font-family: Arial;
+    font-size: 20px; 
+    color:black;
     text-transform: uppercase;
     text-shadow: 10px 10px 10px rgb(2, 1, 1);
     padding: 10px 10px;
-}
-
-h3{
-    font-family: 'fenix';
-    font-size: 25px;
+  }
+  
+  h3{
+    font-family: Arial;
+    font-size: 20px; 
+    color:rgb(10, 10, 10);
     text-transform: uppercase;
     text-shadow: 10px 10px 10px rgb(2, 1, 1);
     padding: 10px 10px;
-}
-
-h4{
-    font-family: 'fenix';
-    font-size: 25px;
+  }
+  
+  h4{
+    font-family: Arial;
+    font-size: 20px; 
+    color:rgb(10, 10, 10);
     text-transform: uppercase;
     text-shadow: 10px 10px 10px rgb(2, 1, 1);
     padding: 10px 10px;
-}
-
-footer{
-    line-height: -25px;
-    color:black  ;
-    text-align: center;
   }
 
-p{
+  h5{
+    font-family: Arial;
+    font-size: 20px; 
+    color:rgb(10, 10, 10);
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgb(2, 1, 1);
+    padding: 10px 10px;
+  }
+
+
+  p{
     font-family: 'fenix';
     font-size: 23px;
     text-transform: lowercase;
     padding: 5px 5px;
+    color: black;
 }
 
 ul {
@@ -86,6 +105,7 @@ ul {
     list-style-type: none;
     padding: 5px 5px;
     font-size: 23px;
+    color: black;
 }
 
 li {
@@ -93,13 +113,35 @@ li {
     margin: 10px 7px;
     padding: 0px;
     font-size: 23px;
+    color: black;
 }
 
-
-.pie-de-pagina {
+  .centro {
     position: absolute; 
-    bottom: -90%;
-    width: 120%;
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50% ,-50%); 
+  }
+  
+  
+  footer{
+    line-height: 25px;
+    color:black  ;
+    text-align: center;
+  }
+  
+  
+  .pie-de-pagina {
+    position: absolute; 
+    bottom: -70%;
+    width: 100%;
     text-shadow: 10px 10px 10px rgb(20, 20, 20);
-    padding: 10px 10px;
-}
+    padding: 9px 9px;
+  }
+  
+  footer {
+    background: #39383a;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+  }
