@@ -19,7 +19,7 @@ nav a {
 
 nav ul {
   list-style: none; 
-  padding: 4;
+  padding: 10;
   margin: 0;
 }
 
@@ -36,7 +36,7 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none; 
   text-shadow: 10px 10px 10px rgb(0, 0, 0);
-  padding: 30px 99px;
+  padding: 20px 100px;
 }
 li a:hover{
   padding: 10px;
