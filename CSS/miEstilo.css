@@ -79,6 +79,21 @@ p{
   transform: translate(-50% ,-50%); 
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+img {
+  scroll-snap-align: start;
+  width: 10%;
+}
 
 footer{
   line-height: 25px;
