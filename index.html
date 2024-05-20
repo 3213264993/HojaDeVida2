@@ -4,67 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Información Principal</title>
-  <link rel="stylesheet" type="text/css" href="../CSS/materialize.css">
+  <link rel="stylesheet" type="text/css" href="CSS/materialize.css">
   <link rel="stylesheet" type="text/css" href="CSS/miEstilo.css">
  
 </head>
 <body>
   <header>
-    <nav class="black">
-      <div class="nave-wrapper">
-      <a href="#" class="brand-logo"><img src="img/sena.png"  width="100" leight="100" ></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-  <ul>
-       
-       <a href="#"><i class="sidenav-trigger"data-target=
-       ><a href="#"><i class="material-icons">menu</i></a>
-
-       
-       <ul class="left hide-on-med-and-down"></ul>
+    <nav class="gris claro-1">
+        <a href="#" class="brand-logo"><img src="img/sena.png"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          
+       <ul class="left hide-on-med-and-down" color=" gris claro-1"></ul>
       <li><a href="index.html"> Informacion principal</a></li>
        <li><a href="paginas/informacion personal .HTML"> Información personal</a></li>
        <li><a href="paginas/contacto.HTML"> Contactame </a></li>
               </ul>
                  </nav>
-                               <h1> BIENVENIDOS</h1>
+                </header>
+             <h1> BIENVENIDOS</h1>
                 <section>
   
                      <article>
                         <h2> Nombre: Yeni Catalina Lopez Contreras</h2>
                         <h3> Mi Hoja De Vida</h3>
  </article>
- <body>
-  <div class="carousel">  
-    <div class="carousel-item">      
+                </section>
+  <div class="carousel">     
     <a href="#" class="carousel-item"><img src="img/fotomia.jpg" alt="imagen1" class="centro" width="270" height="200"></a>          
     <a href="#" class="carousel-item"><img src="img/fotomia2.jpg" alt="imagen2" class="centro" width="270" height="200"></a>           
     <a href="#" class="carousel-item"><img src="img/fotomia3.jpg" alt="imagen3" class="centro" width="270" height="200"></a>
     <a href="#" class="carousel-item"><img src="img/fotomia4.jpg" alt="imagen4" class="centro" width="270" height="200"></a>
     <a href="#" class="carousel-item"><img src="img/fotomia5.jpg" alt="imagen5" class="centro" width="270" height="200"></a>
     <a href="#" class="carousel-item"><img src="img/fotomia6.jpg" alt="imagen6" class="centro" width="270" height="200"></a>
-    </div> 
-<script src="CSS/materialize.css"></script>
-<script>
-   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-        var instances = M.Carousel.init(elems, {
-        });
-  });
+  </div> 
 
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
-</script>
 <footer class="pie-de-pagina">
 DERECHOS RESERVADOS  2024-CDAE VILLETA-CUNDINAMARCA
 </footer>
-</header>
+
 </article>
 
 </section>
 </main>
+<script src="js/materialize.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
 
+</script>
 </body>
 </html>
